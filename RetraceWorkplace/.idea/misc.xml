@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/abhip/StudioProjects/RetraceWorkplace/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/abhip/StudioProjects/RetraceWorkplace/app/src/main/res/drawable/bottom_nav_bar.xml" value="0.1390625" />
+        <entry key="..\:/Users/abhip/StudioProjects/RetraceWorkplace/app/src/main/res/drawable/ic_android_black_24dp.xml" value="0.1" />
+        <entry key="..\:/Users/abhip/StudioProjects/RetraceWorkplace/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/abhip/StudioProjects/RetraceWorkplace/app/src/main/res/drawable/rounded_button.xml" value="0.1" />
+        <entry key="..\:/Users/abhip/StudioProjects/RetraceWorkplace/app/src/main/res/drawable/rounded_disabled_btn.xml" value="0.14444444444444443" />
+        <entry key="..\:/Users/abhip/StudioProjects/RetraceWorkplace/app/src/main/res/drawable/rounded_image.xml" value="0.12760416666666666" />
+        <entry key="..\:/Users/abhip/StudioProjects/RetraceWorkplace/app/src/main/res/drawable/side_nav_bar.xml" value="0.1" />
+        <entry key="..\:/Users/abhip/StudioProjects/RetraceWorkplace/app/src/main/res/layout/activity_main.xml" value="0.10144927536231885" />
+        <entry key="..\:/Users/abhip/StudioProjects/RetraceWorkplace/app/src/main/res/layout/content_main.xml" value="0.1" />
+        <entry key="..\:/Users/abhip/StudioProjects/RetraceWorkplace/app/src/main/res/layout/fragment_gallery.xml" value="0.1" />
+        <entry key="..\:/Users/abhip/StudioProjects/RetraceWorkplace/app/src/main/res/layout/fragment_history.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/abhip/StudioProjects/RetraceWorkplace/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/abhip/StudioProjects/RetraceWorkplace/app/src/main/res/layout/fragment_tracking.xml" value="0.14628623188405798" />
+        <entry key="..\:/Users/abhip/StudioProjects/RetraceWorkplace/app/src/main/res/layout/nav_header_main.xml" value="0.1" />
+        <entry key="..\:/Users/abhip/StudioProjects/RetraceWorkplace/app/src/main/res/layout/rounded_button.xml" value="0.10144927536231885" />
+        <entry key="..\:/Users/abhip/StudioProjects/RetraceWorkplace/app/src/main/res/menu/activity_main_drawer.xml" value="0.1" />
+        <entry key="..\:/Users/abhip/StudioProjects/RetraceWorkplace/app/src/main/res/menu/main_activity2.xml" value="0.1" />
+        <entry key="..\:/Users/abhip/StudioProjects/RetraceWorkplace/app/src/main/res/menu/my_menu.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

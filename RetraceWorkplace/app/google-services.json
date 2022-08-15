@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "824832667793",
+    "project_id": "android-beacon-scanner-398b5",
+    "storage_bucket": "android-beacon-scanner-398b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824832667793:android:c327f65f3ae709e4998f30",
+        "android_client_info": {
+          "package_name": "com.bridou_n.beaconscanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824832667793-6admhls1arvl882f4gomq98b0o9qigms.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBedg3zP06TppwuCg1AaZPIXu8uvLTtTzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "824832667793-6admhls1arvl882f4gomq98b0o9qigms.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824832667793:android:92b149f6d2e291ec998f30",
+        "android_client_info": {
+          "package_name": "com.example.retraceworkplace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824832667793-6admhls1arvl882f4gomq98b0o9qigms.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBedg3zP06TppwuCg1AaZPIXu8uvLTtTzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "824832667793-6admhls1arvl882f4gomq98b0o9qigms.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

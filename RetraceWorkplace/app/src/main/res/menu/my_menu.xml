@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Home"
+        android:enabled="true"
+        android:icon="@drawable/home"
+        android:title="@string/home"
+        app:showAsAction="always"
+        android:visible="true"
+        />
+    <item
+        android:id="@+id/Tracking"
+        android:enabled="true"
+        android:icon="@drawable/tracker"
+        android:title="@string/tracking"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/History"
+        android:enabled="true"
+        android:icon="@drawable/history"
+        android:title="@string/history"
+        android:visible="true"
+        app:showAsAction="always" />
+
+</menu>

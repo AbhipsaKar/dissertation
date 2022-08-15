@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-black"
+        android:padding="5dp"
+        android:text="TextView"
+        android:textSize="20sp" />
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/myCoordinatorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"></androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:padding="20dp"
+        android:paddingBottom="20dp"
+        app:cardBackgroundColor="#F3E1F6">
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@color/purple_200"
+            android:elevation="@dimen/cardview_default_elevation"
+            android:fadingEdge="vertical"
+            android:padding="20dp" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="1dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:background="?android:attr/listDivider"
+            android:foregroundTint="#9C27B0"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/avgTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginEnd="100dp"
+            android:fontFamily="sans-serif-black"
+            android:padding="20dp"
+            android:text="TextView"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/avgTimeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:layout_marginEnd="100dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center|top"
+            android:padding="20dp"
+            android:text="Avg tracking time"
+            android:textColorHighlight="@color/purple_200"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/avgSteps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginStart="100dp"
+            android:fontFamily="sans-serif-black"
+            android:padding="20dp"
+            android:text="TextView"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/avgStepsLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:layout_marginStart="100dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center|top"
+            android:padding="20dp"
+            android:text="Avg steps"
+            android:textColorHighlight="@color/purple_200"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="150dp"
+            android:background="@color/purple_200"
+            android:elevation="@dimen/cardview_default_elevation"
+            android:fadingEdge="vertical"
+            android:padding="20dp" />
+    </androidx.cardview.widget.CardView>
+
+
+
+    <Button
+        android:id="@+id/start_btn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:background="@drawable/rounded_button"
+        android:elevation="@dimen/cardview_default_radius"
+        android:padding="20dp"
+        android:text="GO TO TRACKING"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <ImageView
+            android:id="@+id/home_start_back"
+            android:layout_width="244dp"
+            android:layout_height="357dp"
+            android:layout_marginLeft="85dp"
+            android:elevation="@dimen/cardview_default_elevation"
+            app:srcCompat="@drawable/back" />
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_gravity="bottom"
+        android:visibility="visible"
+        app:itemBackground="@color/white"
+        app:itemIconTint="@drawable/bottom_nav_bar"
+        app:itemTextColor="@drawable/bottom_nav_bar"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/my_menu" />
+
+    <ImageView
+        android:id="@+id/home_back"
+        android:layout_width="wrap_content"
+        android:layout_height="430dp"
+        android:layout_gravity="top"
+        android:src="@drawable/office" />
+</FrameLayout>
