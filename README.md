@@ -28,9 +28,20 @@ The identification of location is done using 'BEEKS' BLE beacons installed in mu
 ## How to get started
 
 The following apps have been referenced during the research process
-1. BEEKS beacon maker App(https://play.google.com/store/apps/details?id=com.bluvision.beaconmaker&gl=US)
-2. PetBuddy App(https://www.raywenderlich.com/24859773-activity-recognition-api-tutorial-for-android-getting-started)
-3. Android beacon scanner(https://github.com/Bridouille/android-beacon-scanner)
+1. <a href="https://play.google.com/store/apps/details?id=com.bluvision.beaconmaker&gl=US)">BEEKS beacon maker App<a>
+2. <a href="https://www.raywenderlich.com/24859773-activity-recognition-api-tutorial-for-android-getting-started">PetBuddy App<a>
+3. <a href="https://github.com/Bridouille/android-beacon-scanner">Android beacon scanner<a>
+
+The project uses the following libraries
+<ul>
+
+<li><a href="https://developers.google.com/android/reference/com/google/android/gms/location/ActivityRecognitionClient">Activity Recognition client<a></li>
+<li><a href="https://developer.android.com/reference/android/hardware/package-summary">Android hardware <a></li>
+<li><a href="https://developer.android.com/jetpack/androidx/releases/room">Androidx Room <a></li>
+<li><a href="https://developer.android.com/jetpack/androidx/releases/lifecycle">Androidx Lifecycle <a></li>
+<li><a href="https://altbeacon.github.io/android-beacon-library/">Altbeacon <a></li>
+<li><a href="https://github.com/lecho/hellocharts-android">HelloCharts Android <a></li>
+</ul>
 
 ### Beacon configuration
 1. Set the advertisement frequency and transmission power based on the chosen indoor area. For my project, beacon discovery was found to be optimum at an advertisement frequency at 2Hz and transmission power at -16dBm. 
@@ -48,11 +59,13 @@ The THRESHOLD and sample size values in DetectActivity.kt are set to 0.3 and 50 
 
 ## Flow of application
 The app contains 3 pages: Home, Tracking and History.
+<p>
+<img src="https://user-images.githubusercontent.com/91799774/184658932-33927250-1ed6-4ae4-b078-1a0b4db5c890.png" width="300" />
+<p>
+<img src="https://user-images.githubusercontent.com/91799774/184658784-702b210d-ec9a-4c1c-a4f1-05b3608bd3c4.jpg" width="300" />
+<p>
+<img src="https://user-images.githubusercontent.com/91799774/184658885-d8d81628-1082-4d97-b362-10e884c01b02.jpg" width="300" />
 
-![Screenshot_20220809-140217](https://user-images.githubusercontent.com/91799774/184658932-33927250-1ed6-4ae4-b078-1a0b4db5c890.png)
-
-![Screenshot_20220802-164359](https://user-images.githubusercontent.com/91799774/184658784-702b210d-ec9a-4c1c-a4f1-05b3608bd3c4.jpg)
-![Screenshot_20220802-164409](https://user-images.githubusercontent.com/91799774/184658885-d8d81628-1082-4d97-b362-10e884c01b02.jpg)
 
 The primary purpose of the Home page is to scan for the geofencing beacon that is installed to detect whether the user has entered the office premises.
 However, for the app to work, user needs to switch on the bluetooth and location, as well as allow activity tracking permissions for the app. 
