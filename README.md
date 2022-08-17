@@ -59,13 +59,19 @@ The THRESHOLD and sample size values in DetectActivity.kt are set to 0.3 and 50 
 
 ## Flow of application
 The app contains 3 pages: Home, Tracking and History.
-<p>
-<img src="https://user-images.githubusercontent.com/91799774/184658932-33927250-1ed6-4ae4-b078-1a0b4db5c890.png" width="300" />
-<p>
+<table>
+  <tr>
+    <td>
+<img src="https://user-images.githubusercontent.com/91799774/185184547-1c62d44c-1ed0-4b90-bd83-15c1b9503576.jpg" width="300" />
+    </td>
+    <td>
 <img src="https://user-images.githubusercontent.com/91799774/184658784-702b210d-ec9a-4c1c-a4f1-05b3608bd3c4.jpg" width="300" />
-<p>
+    </td>
+    <td>
 <img src="https://user-images.githubusercontent.com/91799774/184658885-d8d81628-1082-4d97-b362-10e884c01b02.jpg" width="300" />
-
+    </td>
+  </tr>
+  </table>
 
 The primary purpose of the Home page is to scan for the geofencing beacon that is installed to detect whether the user has entered the office premises.
 However, for the app to work, user needs to switch on the bluetooth and location, as well as allow activity tracking permissions for the app. 
